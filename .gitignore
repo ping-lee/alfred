@@ -7,8 +7,8 @@ _config.yml
 .prettierignore
 .prettierrc
 .travis.yml
-app.js
 gatsby-browser.js
 gatsby-config.js
 gatsby-node.js
 i18n.js
+yarn.lock
