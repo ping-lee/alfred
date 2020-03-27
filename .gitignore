@@ -1,7 +1,6 @@
 .cache
 node_modules
 src
-static
 _config.yml
 .eslintrc.js
 .prettierignore
