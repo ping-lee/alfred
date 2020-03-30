@@ -1,6 +1,15 @@
 .cache
 node_modules
-src
+src/assets/
+src/components/
+src/fonts/
+src/templates/
+src/utils/
+src/html.js
+src/pages/404.js
+src/pages/confirm.js
+src/pages/react-components-unsubscribed.js
+src/pages/thanks.js
 _config.yml
 .eslintrc.js
 .prettierignore
