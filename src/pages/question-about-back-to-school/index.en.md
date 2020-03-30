@@ -1,5 +1,5 @@
 ---
-title: 'Back to the question of going to school'
+title: 'The question about back to school'
 date: '2020-03-30'
 spoiler: Study or work?
 ---
@@ -9,14 +9,14 @@ For a long time, the question of entering a higher school has been lingering in 
 ### Graduate enrollment expansion
 This month, announced by the [Ministry of Education](http://edu.people.com.cn/n1/2020/0302/c1053-31612535. HTML) the enrollment scale of Postgraduates in 2020 increased by 189000 this year compared with last year, a year-on-year increase of 20%. According to the national economic and social development statistics bulletin 2019 released by the National Bureau of statistics, 917000 graduate students will be enrolled in 2019. According to this calculation, after the enrollment expansion, this year's graduate enrollment scale may reach 1.1 million people.
 
-Class|Recruit|In|Graduate
+Class|Re|In|Gr
 -|-|-|-
-Graduate student|91.7|2864|64.0
-General College|914.9|3031.5|758.5
-Secondary vocational education|600.4|1576.5|493.4
-Ordinary high school|839.5|2414.3|789.2
-Junior school student|1638.8|4827.1|1454.1
-Ordinary primary school|1869.0|10561.2|1647.9
+Graduate|91.7|2864|64.0
+Undergraduate|914.9|3031.5|758.5
+Secondary vocational|600.4|1576.5|493.4
+High school|839.5|2414.3|789.2
+Junior|1638.8|4827.1|1454.1
+Primary|1869.0|10561.2|1647.9
 
 This is to implement the requirements of the State Council. Because of the epidemic this year, the employment situation of college graduates is very severe. Expanding the enrollment of Postgraduates can reduce the employment pressure.
 
@@ -35,7 +35,6 @@ The US recently cut its benchmark interest rate [to 0%](https://finance.sina.com
 The opposite is true. I think it's one of the most important long-term economic signs that will have an impact on everyone and will be more profound and lasting than the epidemic itself.
 
 It shows one thing that the era of high interest rates is over forever. Interest rates in the U.S. have fallen to zero, and in China they are falling. Even in Europe last year they were negative. This is by no means temporary. We will face low interest rates for a long time.
-
 
 Interest rate is the cost of capital. A low interest rate means a cheap fund. You can borrow money at a very low price. In turn, it also reflects the average profit margin of the society. If the profit margin of various projects is very high and the interest rate is very low, more people will borrow money, so as to promote the recovery of interest rate.
 
