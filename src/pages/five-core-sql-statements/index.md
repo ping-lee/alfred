@@ -19,7 +19,7 @@ having count(o.order_id) > 4
 order by orders_ct, c.customer_id ;
 ```
 
-select列表列出查询的返回最终结果集中需要显示哪些列，这些列可以是数据表中一个实际的列、一个表达式、<u>或者甚至是一个select语句的结果</u>。
+select列表列出查询的返回最终结果集中需要显示哪些列，这些列可以是数据表中一个实际的列、一个表达式、`或者甚至是一个select语句的结果`。
 ```sql
 select c.customer_id,
        c.cust_first_name||' '||c.cust_last_name,
@@ -168,3 +168,4 @@ EMPLOYEE_ID     BONUS_AMT
 106             480
 107             420
 ```
+- [Oracle的APEX](/oracles-apex/)
