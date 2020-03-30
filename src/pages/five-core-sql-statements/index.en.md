@@ -1,7 +1,7 @@
 ---
-title: '5个核心sql语句'
+title: 'Five core SQL statements'
 date: '2020-01-11'
-spoiler: database
+spoiler: Basic SQL statement example.
 cta: plsql
 ---
 
