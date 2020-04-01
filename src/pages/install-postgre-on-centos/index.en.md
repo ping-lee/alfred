@@ -9,16 +9,19 @@ OS: CentsOS / Install Type: RPM
 
 1. To add and update the pgdg repository to get
 PostgreSQL 11, run the following command:
+
 ```bash
 dnf install https://download.postgresql.org/pub/repos/yum/reporpms/EL-8-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 ```
 
 2. To install the server packages:
+
 ```bash
 dnf install postgresql11-server
 ```
 
 3. To initialize the database and enable automatic start:
+
 ```bash
 /usr/pgsql-11/bin/postgresql-11-setup initdb
 systemctl enable postgresql-11
@@ -27,6 +30,7 @@ systemctl start postgresql-11
 
 4. Automatic startup or auto-initialization of data
 directory is not enabled for Red Hat family distributions due to some policies. So, you need to perform the following steps manually to complete your database installation.
+
 ```bash
 service postgresql initdb
 chkconfig postgresql on
@@ -46,6 +50,7 @@ psql mydb  #active mydb database
 ```
 
 The last line printed out by psql is the prompt, and it indicates that psql is listening to you and that you can type SQL queries into a work space maintained by psql. Try out these commands:
+
 ```bash
 mydb=> SELECT version();
                                          version
