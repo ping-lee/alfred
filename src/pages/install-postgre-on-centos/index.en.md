@@ -1,5 +1,5 @@
 ---
-title: 'ⅠSetup PostgreSQL'
+title: 'ⅠSetup postgre'
 date: '2020-04-01'
 spoiler: open source database
 ---

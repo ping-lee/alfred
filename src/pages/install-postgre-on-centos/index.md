@@ -1,5 +1,5 @@
 ---
-title: 'Ⅰ起步：PostgreSQL'
+title: 'Ⅰ起步：postgre'
 date: '2020-04-01'
 spoiler: open source database
 ---

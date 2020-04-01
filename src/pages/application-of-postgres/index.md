@@ -1,5 +1,5 @@
 ---
-title: 'Ⅲ应用：PostgreSQL'
+title: 'Ⅲ应用：postgre'
 date: '2020-04-04'
 spoiler: open source database
 ---
