@@ -1,10 +1,10 @@
 ---
-title: 'Setup PostgreSQL'
+title: 'ⅠSetup PostgreSQL'
 date: '2020-04-01'
 spoiler: open source database
 ---
 
-### Install
+### Installation
 OS: CentsOS / Install Type: RPM
 
 1. To add and update the pgdg repository to get
@@ -69,4 +69,27 @@ mydb=> SELECT 2 + 2;
 ----------
         4
 (1 row)
+```
+
+### Manage&Configuration Database
+```bash
+pg_ctl status -D /var/lib/pgsql/data # 查看状态
+pg_ctl stop -D /var/lib/pgsql/data # 关闭
+pg_ctl start -D /var/lib/pgsql/data # 启动
+pg_ctl restart -D /var/lib/pgsql/data # 重启
+pg_ctl initdb -D /var/lib/pgsql/data # 初始化
+```
+
+Two file contents need to be modified when the client cannot connect to the database：
+```bash
+#  /var/lib/pgsql/data/postgresql.conf
+listen_addresses = '*'
+#  /var/lib/pgsql/data/pg_hba.conf
+host    all             all             your_ip/32         trust
+#  FATAL: role "mydb" is not permitted to log in
+alter user mydb login;
+# permission denied for relation test
+psql postgres
+\c mydb # switch to mydb database
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO mydb; # grant all permissions to all tables to mydb
 ```

@@ -1,5 +1,5 @@
 ---
-title: '起步：PostgreSQL'
+title: 'Ⅰ起步：PostgreSQL'
 date: '2020-04-01'
 spoiler: open source database
 ---
@@ -68,4 +68,27 @@ mydb=> SELECT 2 + 2;
 ----------
         4
 (1 row)
+```
+
+### 管理配置数据库
+```bash
+pg_ctl status -D /var/lib/pgsql/data # 查看状态
+pg_ctl stop -D /var/lib/pgsql/data # 关闭
+pg_ctl start -D /var/lib/pgsql/data # 启动
+pg_ctl restart -D /var/lib/pgsql/data # 重启
+pg_ctl initdb -D /var/lib/pgsql/data # 初始化
+```
+
+客户端连接不上数据库时要修改两个文件内容：
+```bash
+#  /var/lib/pgsql/data/postgresql.conf
+listen_addresses = '*'
+#  /var/lib/pgsql/data/pg_hba.conf
+host    all             all             your_ip/32         trust
+#  FATAL: role "mydb" is not permitted to log in
+alter user mydb login;
+# permission denied for relation test
+psql postgres
+\c mydb # 切换到mydb数据库
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO mydb; # 赋予所有表的所有权限给mydb
 ```
