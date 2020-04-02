@@ -2,24 +2,27 @@
 title: 'Ⅰ起步：PostgreSQL'
 date: '2020-04-01'
 spoiler: open source database
+cta: postgres
 ---
 
-### 安装
-OS: CentsOS / Install Type: RPM
+在关系型RDBMS的世界里，postgres是备受青睐的，原因得益于两点，像业界oracle数据库一样具有`可编程性`,同时它是免费开源的。拥有复杂查询、外键、触发器、视图、事物完整性、多版本并发控制、数据类型、函数、操作符、聚集函数、索引方法、过程语言如`PL/PgSQL、Perl、Python、Tcl、Ruby、C或者C++、R`。
 
-1. 要添加和更新pgdg存储库以获取PostgreSQL 11，请运行以下命令:
+### 安装
+操作系统: cenos7 / 安装类型：RPM
+
+1. 要添加和更新pgdg存储库以获取PostgreSQL 11，在执行下面命令之前我认为你以及安装好rmp软件包管理工具`dnf`，请运行以下命令:
 
 ```bash
 dnf install https://download.postgresql.org/pub/repos/yum/reporpms/EL-8-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 ```
 
-2. 要安装服务器软件包，请执行以下操作：
+2. 把postgres添加到repo后，安装服务器软件包（postgres服务程序），安装服务程序的同时客户端程序作为依赖会一起安装，请执行以下操作：
 
 ```bash
 dnf install postgresql11-server
 ```
 
-3. 要初始化数据库并启用自动启动：
+3. 初始化数据库并启用自动启动：
 
 ```bash
 /usr/pgsql-11/bin/postgresql-11-setup initdb

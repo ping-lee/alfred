@@ -2,6 +2,7 @@
 title: 'ⅠSetup PostgreSQL'
 date: '2020-04-01'
 spoiler: open source database
+cta: postgres
 ---
 
 ### Installation
