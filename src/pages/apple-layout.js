@@ -1,6 +1,5 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAppleAlt } from '@fortawesome/free-solid-svg-icons';
 import { faApple } from '@fortawesome/free-brands-svg-icons';
 import '../fonts/applelayout.css';
 
@@ -11,7 +10,7 @@ class AppleLayout extends React.Component {
   }
 
   componentDidMount() {
-    this._handleClick();
+    //this._handleClick();
   }
 
   _handleClick() {

@@ -22,6 +22,7 @@ cta: plsql
 这里只说明Linux操作系统上安装Oracle数据库，Windows上的安装不在此讨论，这是因为在Linux上安装时碰到的问题较多，我们寻找出一个安装成功的最短路径，遇到具体的故障再具体说明。
 - 下载[Oracle Database 19c (19.3) Software (64-bit)](https://www.oracle.com/technetwork/database/enterprise-edition/downloads/oracle19c-linux-5462157.html)
 - Oracle Installation Prerequisites
+
 ```bash
 yum install -y oracle-database-preinstall-19c
 ```
