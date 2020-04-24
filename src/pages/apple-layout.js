@@ -1,5 +1,6 @@
 import React from 'react';
-import { rhythm, scale } from '../utils/typography';
+import { rhythm } from '../utils/typography';
+import { Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPagelines } from '@fortawesome/free-brands-svg-icons';
 import '../fonts/applelayout.css';
@@ -28,29 +29,22 @@ class AppleLayout extends React.Component {
             </div>
           </div>
           <div className="icon icon-apple">
-            <FontAwesomeIcon icon={faPagelines} />
+            <Link to="/">
+              <FontAwesomeIcon icon={faPagelines} />
+            </Link>
           </div>
           <ul className="menu">
             <li className="menu-item">
-              <a href="#">Mac</a>
+              <Link to="/">Life</Link>
             </li>
             <li className="menu-item">
-              <a href="#">iPad</a>
+              <a href="#">Is</a>
             </li>
             <li className="menu-item">
-              <a href="#">iPhone</a>
+              <a href="#">About</a>
             </li>
             <li className="menu-item">
-              <a href="#">Watch</a>
-            </li>
-            <li className="menu-item">
-              <a href="#">TV</a>
-            </li>
-            <li className="menu-item">
-              <a href="#">Music</a>
-            </li>
-            <li className="menu-item">
-              <a href="#">Support</a>
+              <a href="#">Passion</a>
             </li>
           </ul>
           <div className="shop icon icon-bag"></div>
