@@ -1,7 +1,7 @@
 import React from 'react';
 import { rhythm, scale } from '../utils/typography';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faApple } from '@fortawesome/free-brands-svg-icons';
+import { faPagelines } from '@fortawesome/free-brands-svg-icons';
 import '../fonts/applelayout.css';
 
 class AppleLayout extends React.Component {
@@ -28,7 +28,7 @@ class AppleLayout extends React.Component {
             </div>
           </div>
           <div className="icon icon-apple">
-            <FontAwesomeIcon icon={faApple} />
+            <FontAwesomeIcon icon={faPagelines} />
           </div>
           <ul className="menu">
             <li className="menu-item">
